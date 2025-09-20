@@ -1,0 +1,169 @@
+.canvas {
+    display: flex;
+    width: 1920px;
+    height: 1080px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background: #FFF;
+}
+.mother {
+    display: flex;
+    width: 390px;
+    height: 844px;
+    padding: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+    background: #FFF;
+}
+.arrow {
+    display: flex;
+    width: 28px;
+    height: 28px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    aspect-ratio: 1/1;
+    transform: scaleX(-1);
+    transform-origin: center;
+}
+.top-half {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+}
+.password-texts {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    align-self: stretch;
+}
+.pass-create {
+    width: 238px;
+    height: 29px;
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.pass {
+    align-self: stretch;
+    color: #7F7F7F;
+    font-family: Inter;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.pass-section {
+display: flex;
+padding: 10px;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 10px;
+align-self: stretch;
+}
+.password-text {
+    width: 83px;
+    height: 18px;
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.input-field-1 {
+    display: flex;
+    width: 340px;
+    height: 61px;
+    padding: 10px 14px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 17px;
+    border: 1.5px solid #BEBEBE;
+}
+.password-dots {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+}
+.dots {
+    display: flex;
+    width: 13px;
+    height: 13px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 10px;
+    background: #000;
+}
+.bottom-half {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+.footer {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}
+.call-to-action {
+    display: flex;
+    padding: 14px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 17px;
+    background: #E26B12;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.sign-up {
+    display: flex;
+    padding: 18px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}
+.sign {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.up {
+    color: #E26B12;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

@@ -1,0 +1,144 @@
+.canvas {
+    display: flex;
+    width: 1920px;
+    height: 1080px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.mother {
+    display: flex;
+    width: 393px;
+    height: 852px;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background: #FFF;
+}
+.top-half {
+    display: flex;
+    padding: 3px 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}
+.logo-and-text {
+    display: flex;
+    padding: 41px 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    color: #000;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.insta-vector {
+    width: 89px;
+    height: 89px;
+    aspect-ratio: 1/1;
+}
+.input-field-1 {
+    display: flex;
+    padding: 18px 10px;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 17px;
+    border: 1.5px solid #BEBEBE;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+.input-field-2 {
+    display: flex;
+    padding: 18px 10px;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 17px;
+    border: 1.5px solid #BEBEBE;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+.password-recovery {
+    display: flex;
+    padding: 0 10px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+}
+.bottom-half {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+.bottom {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}
+.call-to-action {
+    display: flex;
+    padding: 14px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 17px;
+    background: #E26B12;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.call-to-action:hover {
+  background: #d45a00; /* darker orange or any color you like */
+  cursor: pointer;     /* shows pointer on hover */
+}
+
+.sign-up {
+    display: flex;
+    padding: 18px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 17px;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+.sign-up .highlight {
+    color: #E26B12;
+}
